@@ -30,7 +30,4 @@ Para poder alinear las secuencias usamos el programa git bash y el comando ./mus
 
 Entender la diversidad genética del gen cox2 en diferentes especies puede contribuir a esfuerzos de conservación. Identificar variantes genéticas únicas en especies amenazadas puede ser crucial para desarrollar estrategias de conservación efectivas.
 
-En resumen, el proyecto de construir un árbol filogenético del gen cox2 es un esfuerzo científico significativo que aborda cuestiones fundamentales sobre la evolución genética y sus implicaciones en la salud y enfermedad. Al integrar datos moleculares y filogenéticos, este proyecto no solo avanza nuestro entendimiento de la biología del gen cox2, sino que también proporciona una base sólida para futuras investigaciones en biomedicina y conservación.
-
-
 
