@@ -16,7 +16,7 @@ Finalmente, entender la diversidad genética del gen cox2 en diferentes especies
 
 En resumen, el proyecto de construir un árbol filogenético del gen cox2 es un esfuerzo científico significativo que aborda cuestiones fundamentales sobre la evolución genética y sus implicaciones en la salud y enfermedad. Al integrar datos moleculares y filogenéticos, este proyecto no solo avanza nuestro entendimiento de la biología del gen cox2, sino que también proporciona una base sólida para futuras investigaciones en biomedicina y conservación.
 
-![Filogenia con nombres de localización del gen Cox2 en las especies](ProyectoFinalBio24/fiilogenia gen.png)
+![Filogenia con nombres de localización del gen Cox2 en las especies](fiilogenia%20gen.png)
 
-![Filogenia con nombres de especies y el gen Cox2](ProyectoFinalBio24/filogenia nombre.png)
+![Filogenia con nombres de especies y el gen Cox2](filogenia%20nombre.png)
 
