@@ -6,6 +6,11 @@ El gen cox2, conocido también como ciclooxigenasa-2, es un gen que codifica una
 
 El gen cox2 en *Amanita muscaria*, un hongo conocido por sus propiedades psicoactivas y su distintivo aspecto con un sombrero rojo cubierto de manchas blancas, ofrece un ejemplo fascinante de la diversidad genética y funcional del gen. En esta especie, el estudio del gen cox2 puede revelar adaptaciones específicas del hongo a su entorno y su interacción con otros organismos. Analizar la secuencia del gen cox2 en *Amanita muscaria* y compararla con otras especies puede proporcionar pistas sobre cómo este gen ha evolucionado en diferentes contextos ecológicos y biológicos.
 
+## *Amanita muscaria*
+
+![Amanita muscaria](amanita-muscaria-150877020597u.jpg)
+
+
 La importancia de construir un árbol filogenético del gen cox2 radica en varias razones clave. En primer lugar, analizar la evolución del gen cox2 proporciona una visión más profunda de la biología evolutiva y permite identificar patrones de conservación y divergencia del gen en diferentes linajes. Esto ayuda a inferir cómo las mutaciones han afectado la función del gen a lo largo del tiempo.
 
 Además, el gen cox2 está implicado en diversos procesos patológicos, incluyendo la inflamación y el cáncer. Al comprender mejor su evolución, los investigadores pueden identificar variantes del gen que podrían estar asociadas con enfermedades específicas, lo que puede conducir a nuevas estrategias terapéuticas y diagnósticas.
@@ -29,5 +34,9 @@ Para poder alinear las secuencias usamos el programa git bash y el comando ./mus
 
 
 Entender la diversidad genética del gen cox2 en diferentes especies puede contribuir a esfuerzos de conservación. Identificar variantes genéticas únicas en especies amenazadas puede ser crucial para desarrollar estrategias de conservación efectivas.
+
+
+
+
 
 
