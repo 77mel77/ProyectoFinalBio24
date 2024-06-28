@@ -1,0 +1,58 @@
+ons: 102
+CPU time used for tree search: 4.297 sec (0h:0m:4s)
+Wall-clock time used for tree search: 4.399 sec (0h:0m:4s)
+Total CPU time used: 4.516 sec (0h:0m:4s)
+Total wall-clock time used: 4.643 sec (0h:0m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file alieneamiento.afa.splits.nex...
+10 taxa and 30 splits.
+Consensus tree written to alieneamiento.afa.contree
+Reading input trees file alieneamiento.afa.contree
+Log-likelihood of consensus tree: -8040.648
+
+Analysis results written to:
+  IQ-TREE report:                alieneamiento.afa.iqtree
+  Maximum-likelihood tree:       alieneamiento.afa.treefile
+  Likelihood distances:          alieneamiento.afa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          alieneamiento.afa.splits.nex
+  Consensus tree:                alieneamiento.afa.contree
+  Screen log file:               alieneamiento.afa.log
+
+Date and Time: Tue Jun 25 14:52:39 2024
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ iqtree -s alignment.fasta -m MFP -bb 1000 -alrt 1000
+bash: iqtree: command not found
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ iqtree -s alieneamiento.fasta -m MFP -bb 1000 -alrt 1000
+bash: iqtree: command not found
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ nano
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ nano
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ nano
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ nano
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ script
+bash: script: command not found
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ^C
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ readme
+bash: readme: command not found
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ nano

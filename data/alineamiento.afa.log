@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.0.6 for Windows 32-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    P208_E7 (SSE4.2, 1 GB RAM)
+Command: C:\Users\estudiante\Desktop\Proyecto final\Genes\iqtree-2.0.6-Windows32\iqtree-2.0.6-Windows32\bin\iqtree2.exe -s alineamiento.afa -B 1000
+Seed:    915955 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 25 14:51:58 2024
+Kernel:  SSE2 - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file alineamiento.afa ... ERROR: File not found alineamiento.afa

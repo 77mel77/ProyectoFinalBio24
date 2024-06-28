@@ -1,0 +1,501 @@
+estudiante@P208_E7 MINGW64 ~
+$ cd
+
+estudiante@P208_E7 MINGW64 ~
+$ ls
+'3D Objects'/           'Datos de programa'@   GovNTUser.dat      NTUSER.DAT                                                                                     Plantillas@     ntuser.dat.LOG1
+ AppData/                Desktop/              Impresoras@        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Reciente@       ntuser.dat.LOG2
+'Application Data'/      Documents/            Links/             NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.ini
+'Configuración local'@   Downloads/           'Menú Inicio'@      NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Searches/
+ Contacts/              'Entorno de red'@     'Mis documentos'@   OneDrive/                                                                                      SendTo@
+ Cookies@                Favorites/            Music/             Pictures/                                                                                      Videos/
+
+estudiante@P208_E7 MINGW64 ~
+$ cd Escritorio
+bash: cd: Escritorio: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~
+$ cd Desktop
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ls
+'Proyecto final'/   desktop.ini   muscle5.1.win64.exe*
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ cd muscle5.1.win64.exe
+bash: cd: muscle5.1.win64.exe: Not a directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ https://carpentries.github.io/workshop-template/install_instructions/#shell
+bash: https://carpentries.github.io/workshop-template/install_instructions/#shell: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./muscle3.8.31_i86linux64 -in $file -out musscle_$file -maxiters 1 -diags
+bash: ./muscle3.8.31_i86linux64: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./ muscle5.1.win64.exe
+bash: ./: Is a directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./muscle5.1.win64.exe
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Align FASTA input, write aligned FASTA (AFA) output:
+    muscle -align input.fa -output aln.afa
+
+Align large input using Super5 algorithm if -align is too expensive,
+typically needed with more than a few hundred sequences:
+    muscle -super5 input.fa -output aln.afa
+
+Single replicate alignment:
+    muscle -align input.fa -perm PERM -perturb SEED -output aln.afa
+    muscle -super5 input.fa -perm PERM -perturb SEED -output aln.afa
+        PERM is guide tree permutation none, abc, acb, bca (default none).
+        SEED is perturbation seed 0, 1, 2... (default 0 = don't perturb).
+
+Ensemble of replicate alignments, output in Ensemble FASTA (EFA) format,
+EFA has one aligned FASTA for each replicate with header line "<PERM.SEED":
+    muscle -align input.fa -stratified -output stratified_ensemble.efa
+    muscle -align input.fa -diversified -output diversified_ensemble.afa
+
+    -replicates N
+        Number of replicates, defaults 4, 100, 100 for stratified,
+          diversified, resampled. With -stratified there is one
+          replicate per guide tree permutation, total is 4 x N.
+
+Generate resampled ensemble from existing ensemble by sampling columns
+with replacement:
+    muscle -resample ensemble.efa -output resampled.efa
+
+    -maxgapfract F
+       Maximum fraction of gaps in a column (F=0..1, default 0.5).
+
+    -minconf CC
+       Minimum column confidence (CC=0..1, default 0.5).
+
+If ensemble output filename has @, then one FASTA file is generated
+for each replicate where @ is replaced by perm.s, otherwise all replicates
+are written to one EFA file.
+
+Calculate disperson of an ensemble:
+    muscle -disperse ensemble.efa
+
+Extract replicate with highest total CC (diversified input recommended):
+    muscle -maxcc ensemble.efa -output maxcc.afa
+
+Extract aligned FASTA files from EFA file:
+    muscle -efa_explode ensemble.efa
+
+Convert FASTA to EFA, input has one filename per line:
+    muscle -fa2efa filenames.txt -output ensemble.efa
+
+Update ensemble by adding two sequences of digits to each replicate, digits
+are column confidence (CC) values, e.g. "73" means CC=0.73, "++" is CC=1.0:
+    muscle -addconfseqs ensemble.efa -output ensemble_cc.efa
+
+Calculate letter confidence (LC) values, -ref specifies the alignment to
+compare against the ensemble (e.g. from -maxcc), output is in aligned
+FASTA format with LC values 0, 1 ... 9 instead of letters:
+    muscle -letterconf ensemble.efa -ref aln.afa -output letterconf.afa
+
+    -html aln.html
+        Alignment colored by LC in HTML format.
+
+    -jalview aln.features
+        Jalview feature file with LC values and colors.
+
+More documentation at:
+    https://drive5.com/muscle
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ls
+'Proyecto final'/   desktop.ini
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ cd Proyecto\ final/
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final
+$ ls
+Genes/
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final
+$ cd Genes
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Align FASTA input, write aligned FASTA (AFA) output:
+    muscle -align input.fa -output aln.afa
+
+Align large input using Super5 algorithm if -align is too expensive,
+typically needed with more than a few hundred sequences:
+    muscle -super5 input.fa -output aln.afa
+
+Single replicate alignment:
+    muscle -align input.fa -perm PERM -perturb SEED -output aln.afa
+    muscle -super5 input.fa -perm PERM -perturb SEED -output aln.afa
+        PERM is guide tree permutation none, abc, acb, bca (default none).
+        SEED is perturbation seed 0, 1, 2... (default 0 = don't perturb).
+
+Ensemble of replicate alignments, output in Ensemble FASTA (EFA) format,
+EFA has one aligned FASTA for each replicate with header line "<PERM.SEED":
+    muscle -align input.fa -stratified -output stratified_ensemble.efa
+    muscle -align input.fa -diversified -output diversified_ensemble.afa
+
+    -replicates N
+        Number of replicates, defaults 4, 100, 100 for stratified,
+          diversified, resampled. With -stratified there is one
+          replicate per guide tree permutation, total is 4 x N.
+
+Generate resampled ensemble from existing ensemble by sampling columns
+with replacement:
+    muscle -resample ensemble.efa -output resampled.efa
+
+    -maxgapfract F
+       Maximum fraction of gaps in a column (F=0..1, default 0.5).
+
+    -minconf CC
+       Minimum column confidence (CC=0..1, default 0.5).
+
+If ensemble output filename has @, then one FASTA file is generated
+for each replicate where @ is replaced by perm.s, otherwise all replicates
+are written to one EFA file.
+
+Calculate disperson of an ensemble:
+    muscle -disperse ensemble.efa
+
+Extract replicate with highest total CC (diversified input recommended):
+    muscle -maxcc ensemble.efa -output maxcc.afa
+
+Extract aligned FASTA files from EFA file:
+    muscle -efa_explode ensemble.efa
+
+Convert FASTA to EFA, input has one filename per line:
+    muscle -fa2efa filenames.txt -output ensemble.efa
+
+Update ensemble by adding two sequences of digits to each replicate, digits
+are column confidence (CC) values, e.g. "73" means CC=0.73, "++" is CC=1.0:
+    muscle -addconfseqs ensemble.efa -output ensemble_cc.efa
+
+Calculate letter confidence (LC) values, -ref specifies the alignment to
+compare against the ensemble (e.g. from -maxcc), output is in aligned
+FASTA format with LC values 0, 1 ... 9 instead of letters:
+    muscle -letterconf ensemble.efa -ref aln.afa -output letterconf.afa
+
+    -html aln.html
+        Alignment colored by LC in HTML format.
+
+    -jalview aln.features
+        Jalview feature file with LC values and colors.
+
+More documentation at:
+    https://drive5.com/muscle
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ mus
+MusNotification.exe    MusNotificationUx.exe  MusNotifyIcon.exe      MusUpdateHandlers.dll  musdialoghandlers.dll
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ mus
+MusNotification.exe    MusNotificationUx.exe  MusNotifyIcon.exe      MusUpdateHandlers.dll  musdialoghandlers.dll
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ mus
+MusNotification.exe    MusNotificationUx.exe  MusNotifyIcon.exe      MusUpdateHandlers.dll  musdialoghandlers.dll
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ^C
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ m^C
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle3.8.31_i86linux64 ^C
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ muscle -align input.fa -output aln.afa
+bash: muscle: command not found
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align sequence (1).fasta -output aln.afa
+bash: syntax error near unexpected token `('
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align sequence\ \(1).fasta -output aln.afa
+bash: syntax error near unexpected token `)'
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (1).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 756, max 756
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (2).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 756, max 756
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (3).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 684, max 684
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (4).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 684, max 684
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (5).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 688, max 688
+
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe -align "sequence (6).fasta" -output aln.afa
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 1 seqs, avg length 684, max 684
+estudiante@P208_E7 MINGW64 ~
+$ cd
+
+estudiante@P208_E7 MINGW64 ~
+$ ls
+'3D Objects'/           'Datos de programa'@   GovNTUser.dat      NTUSER.DAT                                                                                     Plantillas@     ntuser.dat.LOG1
+ AppData/                Desktop/              Impresoras@        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Reciente@       ntuser.dat.LOG2
+'Application Data'/      Documents/            Links/             NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ntuser.ini
+'Configuración local'@   Downloads/           'Menú Inicio'@      NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Searches/
+ Contacts/              'Entorno de red'@     'Mis documentos'@   OneDrive/                                                                                      SendTo@
+ Cookies@                Favorites/            Music/             Pictures/                                                                                      Videos/
+
+estudiante@P208_E7 MINGW64 ~
+$ cd Escritorio
+bash: cd: Escritorio: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~
+$ cd Desktop
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ls
+'Proyecto final'/   desktop.ini   muscle5.1.win64.exe*
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ cd muscle5.1.win64.exe
+bash: cd: muscle5.1.win64.exe: Not a directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ https://carpentries.github.io/workshop-template/install_instructions/#shell
+bash: https://carpentries.github.io/workshop-template/install_instructions/#shell: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./muscle3.8.31_i86linux64 -in $file -out musscle_$file -maxiters 1 -diags
+bash: ./muscle3.8.31_i86linux64: No such file or directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./ muscle5.1.win64.exe
+bash: ./: Is a directory
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ./muscle5.1.win64.exe
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Align FASTA input, write aligned FASTA (AFA) output:
+    muscle -align input.fa -output aln.afa
+
+Align large input using Super5 algorithm if -align is too expensive,
+typically needed with more than a few hundred sequences:
+    muscle -super5 input.fa -output aln.afa
+
+Single replicate alignment:
+    muscle -align input.fa -perm PERM -perturb SEED -output aln.afa
+    muscle -super5 input.fa -perm PERM -perturb SEED -output aln.afa
+        PERM is guide tree permutation none, abc, acb, bca (default none).
+        SEED is perturbation seed 0, 1, 2... (default 0 = don't perturb).
+
+Ensemble of replicate alignments, output in Ensemble FASTA (EFA) format,
+EFA has one aligned FASTA for each replicate with header line "<PERM.SEED":
+    muscle -align input.fa -stratified -output stratified_ensemble.efa
+    muscle -align input.fa -diversified -output diversified_ensemble.afa
+
+    -replicates N
+        Number of replicates, defaults 4, 100, 100 for stratified,
+          diversified, resampled. With -stratified there is one
+          replicate per guide tree permutation, total is 4 x N.
+
+Generate resampled ensemble from existing ensemble by sampling columns
+with replacement:
+    muscle -resample ensemble.efa -output resampled.efa
+
+    -maxgapfract F
+       Maximum fraction of gaps in a column (F=0..1, default 0.5).
+
+    -minconf CC
+       Minimum column confidence (CC=0..1, default 0.5).
+
+If ensemble output filename has @, then one FASTA file is generated
+for each replicate where @ is replaced by perm.s, otherwise all replicates
+are written to one EFA file.
+
+Calculate disperson of an ensemble:
+    muscle -disperse ensemble.efa
+
+Extract replicate with highest total CC (diversified input recommended):
+    muscle -maxcc ensemble.efa -output maxcc.afa
+
+Extract aligned FASTA files from EFA file:
+    muscle -efa_explode ensemble.efa
+
+Convert FASTA to EFA, input has one filename per line:
+    muscle -fa2efa filenames.txt -output ensemble.efa
+
+Update ensemble by adding two sequences of digits to each replicate, digits
+are column confidence (CC) values, e.g. "73" means CC=0.73, "++" is CC=1.0:
+    muscle -addconfseqs ensemble.efa -output ensemble_cc.efa
+
+Calculate letter confidence (LC) values, -ref specifies the alignment to
+compare against the ensemble (e.g. from -maxcc), output is in aligned
+FASTA format with LC values 0, 1 ... 9 instead of letters:
+    muscle -letterconf ensemble.efa -ref aln.afa -output letterconf.afa
+
+    -html aln.html
+        Alignment colored by LC in HTML format.
+
+    -jalview aln.features
+        Jalview feature file with LC values and colors.
+
+More documentation at:
+    https://drive5.com/muscle
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ ls
+'Proyecto final'/   desktop.ini
+
+estudiante@P208_E7 MINGW64 ~/Desktop
+$ cd Proyecto\ final/
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final
+$ ls
+Genes/
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final
+$ cd Genes
+
+estudiante@P208_E7 MINGW64 ~/Desktop/Proyecto final/Genes
+$ ./muscle5.1.win64.exe
+
+muscle 5.1.win64 [ddb630]  4.2Gb RAM, 4 cores
+Built Jan 13 2022 15:30:12
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Align FASTA input, write aligned FASTA (AFA) output:
+    muscle -align input.fa -output aln.afa
+
+Align large input using Super5 algorithm if -align is too expensive,
+typically needed with more than a few hundred sequences:
+    muscle -super5 input.fa -output aln.afa
+
+Single replicate alignment:
+    muscle -align input.fa -perm PERM -perturb SEED -output aln.afa
+    muscle -super5 input.fa -perm PERM -perturb SEED -output aln.afa
+        PERM is guide tree permutation none, abc, acb, bca (default none).
+        SEED is perturbation seed 0, 1, 2... (default 0 = don't perturb).
+
+Ensemble of replicate alignments, output in Ensemble FASTA (EFA) format,
+EFA has one aligned FASTA for each replicate with header line "<PERM.SEED":
+    muscle -align input.fa -stratified -output stratified_ensemble.efa
+    muscle -align input.fa -diversified -output diversified_ensemble.afa
+
+    -replicates N
+        Number of replicates, defaults 4, 100, 100 for stratified,
+          diversified, resampled. With -stratified there is one
+          replicate per guide tree permutation, total is 4 x N.
+
+Generate resampled ensemble from existing ensemble by sampling columns
+with replacement:
+    muscle -resample ensemble.efa -output resampled.efa
+
+    -maxgapfract F
+       Maximum fraction of gaps in a column (F=0..1, default 0.5).
+
+    -minconf CC
+       Minimum column confidence (CC=0..1, default 0.5).
+
+If ensemble output filename has @, then one FASTA file is generated
+for each replicate where @ is replaced by perm.s, otherwise all replicates
+are written to one EFA file.
+
+Calculate disperson of an ensemble:
+    muscle -disperse ensemble.efa
+
+Extract replicate with highest total CC (diversified input recommended):
+    muscle -maxcc ensemble.efa -output maxcc.afa
+
+Extract aligned FASTA files from EFA file:
+    muscle -efa_explode ensemble.efa
+
+Convert FASTA to EFA, input has one filename per line:
+    muscle -fa2efa filenames.txt -output ensemble.efa
+
+Update ensemble by adding two sequences of digits to each replicate, digits
+are column confidence (CC) values, e.g. "73" means CC=0.73, "++" is CC=1.0:
+    muscle -addconfseqs ensemble.efa -output ensemble_cc.efa
+
+Calculate letter confidence (LC) values, -ref specifies the alignment to
+compare against the ensemble (e.g. from -maxcc), output is in aligned
+FASTA format with LC values 0, 1 ... 9 instead of letters:
+    muscle -letterconf ensemble.efa -ref aln.afa -output letterconf.afa
+
+    -html aln.html
+        Alignment colored by LC in HTML format.
+
+    -jalview aln.features
+        Jalview feature file with LC values and colors.
+
