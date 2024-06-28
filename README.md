@@ -35,7 +35,10 @@ Para poder alinear las secuencias usamos el programa git bash y el comando ./mus
 
 Entender la diversidad genética del gen cox2 en diferentes especies puede contribuir a esfuerzos de conservación. Identificar variantes genéticas únicas en especies amenazadas puede ser crucial para desarrollar estrategias de conservación efectivas.
 
+## Bibliografía
 
+Sanz, P. M. (2016). SEBBM DIVULGACIÓN ACÉRCATE A NUESTROS CIENTÍFICOS.
+Zhang, P., Tang, L. P., Cai, Q., & Xu, J. P. (2015). A review on the diversity, phylogeography and population genetics of Amanita mushrooms. Mycology, 6(2), 86-93.
 
 
 
