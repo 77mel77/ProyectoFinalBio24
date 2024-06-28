@@ -9,6 +9,8 @@ El gen cox2 en *Amanita muscaria*, un hongo conocido por sus propiedades psicoac
 ## *Amanita muscaria*
 
 ![Amanita muscaria](amanita-muscaria-150877020597u.jpg)
+
+
 <img src="drawing.jpg" alt="drawing" width="200"/ 
 
 La importancia de construir un árbol filogenético del gen cox2 radica en varias razones clave. En primer lugar, analizar la evolución del gen cox2 proporciona una visión más profunda de la biología evolutiva y permite identificar patrones de conservación y divergencia del gen en diferentes linajes. Esto ayuda a inferir cómo las mutaciones han afectado la función del gen a lo largo del tiempo.
